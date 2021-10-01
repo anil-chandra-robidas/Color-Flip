@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.counter-wrapper {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    
+}
+
+h1 , h2 {
+    font-size: 100px;
+    color: #000;
+    line-height: 1.2;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
